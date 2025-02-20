@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 0px;
+            max-width: 8000px;
+            width: 90%;
+            border-color: black;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 5px solid #f50f8d;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="download.jpg" alt="Image 1">
+        <img src="cat.jpg" alt="Image 2">
+        <img src="cheetah.jpg" alt="Image 3">
+        <img src="giraff.jpg" alt="Image 4">
+        <img src="img1.jpg" alt="Image 5">
+        <img src="elephant.jpg" alt="Image 6">
+        <img src="tiger.jpg" alt="Image 7">
+        <img src="panda.jpg" alt="Image 8">
+        <img src="parrot.jpg" alt="Image 9">
+        <img src="lizard.jpg" alt="Image 10">
+        <img src="lion2.jpg" alt="Image 11">
+        <img src="seahorse.jpg" alt="Image 12">
+        <img src="puppy.jpg" alt="Image 13">
+        <img src="snow dog.jpg" alt="Image 14">
+        <img src="pengiun.jpg" alt="Image 15">
+        <img src="owl.jpg" alt="Image 16">
+        <img src="rabbit.jpg" alt="Image 17">
+        <img src="squirrel.jpg" alt="Image 18">
+        <img src="kangaroo.jpg" alt="Image 19">
+    </div>
+</body>
+</html>
